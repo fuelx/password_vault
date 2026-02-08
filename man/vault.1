@@ -1,0 +1,59 @@
+.TH VAULT 1 "February 2026" "password-vault 0.1.0" "User Commands"
+
+.SH NAME
+vault \- local password vault and TOTP generator
+
+.SH SYNOPSIS
+.B vault
+[\fIcommand\fR] [\fIoptions\fR]
+
+.SH DESCRIPTION
+.B vault
+is a local command-line password vault designed for use on Termux and Linux.
+It provides secure storage primitives and a TOTP (RFC 6238) authenticator.
+
+This tool is intended for local use and learning purposes.
+
+.SH COMMANDS
+.TP
+.B totp \fISECRET\fR
+Generate a 6-digit Time-based One-Time Password (TOTP) from a Base32 secret.
+
+.SH OPTIONS
+.TP
+.B -h, --help
+Show help message and exit.
+
+.SH EXAMPLES
+.TP
+Generate a TOTP code:
+.RS
+vault totp JBSWY3DPEHPK3PXP
+.RE
+
+.SH SECURITY
+Never pass real secrets directly on the command line.
+Command-line arguments may be visible via shell history or process listings.
+
+.SH FILES
+.TP
+~/.config/password-vault/
+Default configuration directory (future use).
+
+.SH EXIT STATUS
+.TP
+0
+Success.
+.TP
+1
+General error.
+
+.SH AUTHOR
+Written by Ankit.
+
+.SH LICENSE
+MIT License.
+
+.SH SEE ALSO
+.BR python (1),
+.BR openssl (1)
