@@ -1,6 +1,8 @@
 [project]
 name = "password-vault"
 version = "0.1.0"
+description = "Local password vault for Termux"
+requires-python = ">=3.10"
 
 [project.scripts]
 vault = "vault.cli:main"
