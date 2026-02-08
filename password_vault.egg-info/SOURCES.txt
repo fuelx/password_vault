@@ -8,3 +8,4 @@ password_vault.egg-info/top_level.txt
 vault/__init__.py
 vault/authenticator.py
 vault/cli.py
+vault/logger.py
