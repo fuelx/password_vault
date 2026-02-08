@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+password_vault.egg-info/PKG-INFO
+password_vault.egg-info/SOURCES.txt
+password_vault.egg-info/dependency_links.txt
+password_vault.egg-info/entry_points.txt
+password_vault.egg-info/top_level.txt
+vault/cli.py
