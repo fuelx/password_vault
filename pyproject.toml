@@ -13,3 +13,4 @@ vault = "vault.cli:main"
 
 [tool.setuptools]
 packages = ["vault"]
+#Only for the termux build apps.    
