@@ -21,7 +21,9 @@ Designed to run on **Termux (Android)** with no cloud dependency.
 - MariaDB (MySQL compatible)
 - Termux (Android Linux environment)
 - Shell scripts for setup
-
+- Stay Curious stay awake
 ---
 
 ## 📂 Project Structure
+
+
